@@ -16,3 +16,4 @@ for line in sys.stdin:
     x += float(line)
 
 print(x)
+# GitHubで変更
