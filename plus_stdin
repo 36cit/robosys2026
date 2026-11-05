@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2026　Naoki Kidoguchi
+
 import sys
 
 x = 0.0
