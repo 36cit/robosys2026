@@ -3,6 +3,16 @@ import sys
 
 x = 0.0
 for line in sys.stdin:
+    try:
+        x += float(line)
+    except ValueError:
+        print("Error: invalid input", file=sys.stderr)
+
+print(x)#!/usr/bin/python3
+import sys
+
+x = 0.0
+for line in sys.stdin:
     x += float(line)
 
 print(x)
