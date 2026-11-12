@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# SPDX-FileCopyrightText: 2026　Naoki Kidoguchi
+#!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 Naoki Kidoguchi
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
@@ -9,9 +9,8 @@ for line in sys.stdin:
     try:
         x += float(line)
     except ValueError:
-        print("Error: invalid input", file=sys.stderr)
+        sys.exit(1)
 
 print(x)
-
 # localで変更
 # GitHubで変更
